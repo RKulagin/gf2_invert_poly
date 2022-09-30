@@ -42,7 +42,6 @@ jobs:
           script-name: gf2_invert_poly.py
           access-token: ${{ secrets.NUITKA_COMMERCIAL_ACCESS_TOKEN }}
           onefile: true
-          enable-plugins: pyside6
           
       # Uploads artifact
       - name: Upload Artifacts
